@@ -1,8 +1,8 @@
 @echo off
-echo "ä¸Šä¼ ä¸­"
+echo "ÉÏ´«ÖĞ"
 git add .
 git commit -m "upload datas"
 git remote add origin git@github.com:nwdxlgzs/datas-lua-webverify.git
 git push -u origin master
-echo "æ‰§è¡Œå®Œæ¯•ï¼Œé€€å‡ºè¯·æŒ‰ä»»æ„é”®ã€‚"
+echo "Ö´ĞĞÍê±Ï£¬ÍË³öÇë°´ÈÎÒâ¼ü¡£"
 pause
