@@ -1,5 +1,5 @@
-@echo "选中整个目录"
+@echo ">>>git add ."
 git add .
-@echo "上传信息为：upload datas"
+@echo ">>>git commit -m ^"upload datas^""
 git commit -m "upload datas"
 pause
