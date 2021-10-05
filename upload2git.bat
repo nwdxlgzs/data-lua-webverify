@@ -1,5 +1,5 @@
 @echo off
-rm ping
+del ping
 echo wscript.echo DateDiff("s", "01/01/1970 00:00:00", Now())>sjc.vbs
 for /f %%i in ('cscript sjc.vbs /nologo') do echo %%i>sjc.vbs
 ren sjc.vbs ping
