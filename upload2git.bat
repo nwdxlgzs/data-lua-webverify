@@ -7,6 +7,7 @@ git add . ||pause
 git commit -m "file update." ||pause
 rem git remote rm origin
 rem git remote add origin git@github.com:nwdxlgzs/data-lua-webverify.git
-git push -u git@github.com:nwdxlgzs/data-lua-webverify.git master ||pause
-
+git pull origin master ||pause
+rem git push -u git@github.com:nwdxlgzs/data-lua-webverify.git master ||pause
+git push -u origin master ||pause
 TIMEOUT /T 10
