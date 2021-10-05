@@ -2,10 +2,7 @@
 git add . ||pause
 git commit -m "file update." ||pause
 git push -u git@github.com:nwdxlgzs/datas-lua-webverify.git master ||pause
-cur_sec_and_ns=`date '+%s-%N'`
-Ncur_ns=`date '+%N'`
-cur_sec=${cur_sec_and_ns%-*}
-cur_ns=${cur_sec_and_ns##*-}
-cur_timestamp=$((cur_sec*1000+cur_ns/1000000))
-echo cur_timestamp
+echo wscript.echo DateDiff("s", "01/01/1970 00:00:00", Now())>sjc.vbs
+for /f %%i in ('cscript sjc.vbs /nologo') do echo %%i>sjc.vbs
+ren sjc.vbs sjc.txt
 TIMEOUT /T 10
